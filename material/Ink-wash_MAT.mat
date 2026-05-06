@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ink-wash_MAT
+  m_Shader: {fileID: 4800000, guid: 06ed562eb23ad454cba45687df2fee68, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _RIM_ON
+  - _SMOOTH_BOX
+  m_InvalidKeywords:
+  - _USERIMLIGHT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BrushNoise:
+        m_Texture: {fileID: 2800000, guid: 01eaf172e4ba58e479706ed8f2f44af8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BrushTex:
+        m_Texture: {fileID: 2800000, guid: ac05be8aee1559b4f863322198f72fed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InkRamp:
+        m_Texture: {fileID: 2800000, guid: 7fd429cfded611648b869364d0362aa2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InteriorNoise:
+        m_Texture: {fileID: 2800000, guid: 6e1560f3824adbb4c96a2db1d210d712, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineNoise:
+        m_Texture: {fileID: 2800000, guid: 147d4e096a343fb4c87c749dea59d451, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 7fd429cfded611648b869364d0362aa2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StrokeTex:
+        m_Texture: {fileID: 2800000, guid: 8d21eb882e6da564aa485a04b5209db9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WashNoise:
+        m_Texture: {fileID: 2800000, guid: 8481905f298c1af48a01821b44a3a338, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlurRadius: 60
+    - _BrushBlend: 1
+    - _BrushPower: 0.12
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DistanceFalloff: 0.393
+    - _DryCutoff: 0.33
+    - _DryDensity: 0.174
+    - _DryFeather: 0.057
+    - _DryHashScale: 0.63
+    - _DryNoiseScale: 0.1
+    - _DryPattern: 0
+    - _DryStripeAngle: 62.7
+    - _DryStripeFreq: 44.7
+    - _DryWidth: 1.207
+    - _DryWorldScale: 1.34
+    - _DstBlend: 0
+    - _FlyingWhiteThreshold: 0.52
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HStep: 0.36
+    - _InteriorNoiseLevel: 0
+    - _KuwaharaSize: 0.0575
+    - _MaxOutlineZOffset: 0.5
+    - _Metallic: 0
+    - _MinDistance: 2.16
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Outline: 0.041
+    - _OutlineDistanceScale: 1
+    - _OutlineMaxWidth: 1
+    - _OutlineMinWidth: 0.01
+    - _OutsideNoiseWidth: 2
+    - _Parallax: 0.02
+    - _Resolution: 800
+    - _RimGain: 0.333
+    - _RimIntensity: 0.423
+    - _RimPower: 1.65
+    - _RimRate: 1.9
+    - _Smooth: 1
+    - _SmoothRadius: 0.05
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StrokeDistComp: 0.3
+    - _StrokeJitter: 0.35261947
+    - _StrokeMaxDist: 30
+    - _StrokeWidth: 0.01686376
+    - _StrokeZPush: 0.2781563
+    - _ToneFalloff: 0.04
+    - _ToneLevels: 4
+    - _UVSec: 0
+    - _UseKuwahara: 0
+    - _UseRim: 1
+    - _UseRimLight: 1
+    - _VStep: 0.623
+    - _WashDistort: 0.146
+    - _WashJitter: 0.08
+    - _WetCutoff: 0.805
+    - _WetFeather: 0.393
+    - _WetNoiseScale: 5.69
+    - _Wrap: 0.5
+    - _ZWrite: 1
+    - hstep: 0.325
+    - radius: 33.3
+    - resolution: 800
+    - vstep: 0.549
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _InkColor: {r: 0.049999982, g: 0.049999982, b: 0.049999982, a: 1}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 1}
+    - _StrokeColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
