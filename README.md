@@ -66,6 +66,8 @@ A stylized Chinese ink-wash rendering setup for Unity's Built-in Render Pipeline
 | `Tab` | Show / hide the InkRuntimeUI panel |
 | `Space` | Toggle the post-process |
 | `1` / `2` / `3` / `4` | Switch edge-detection operator (Contrast / Sobel-Feldman / Prewitt / DoG) |
+| `W` / `A` / `S` / `D` | Move Camera in Front/Left/Back/Right |
+| `Hold RMB` | Rotate the view |
 
 ---
 
