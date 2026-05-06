@@ -12,19 +12,14 @@ A stylized Chinese ink-wash rendering setup for Unity's Built-in Render Pipeline
 
 - Unity **Built-in Render Pipeline**.
 - Tested on Unity 6000.2.14f; both legacy and new Input System are supported.
-- The camera's `DepthTextureMode.Depth` is enabled automatically — no manual setup needed.
 
 ---
 
 ## 2. Importing into an Existing Project
 
-1. Close the target Unity project.
-2. Copy the following folders from this repo's `Assets/` into the target project's `Assets/`:
-   - `Assets/Shader/` (`Ink-wash_PP.shader`, `InkWash_Mat.shader`, …)
-   - `Assets/Script/` (`firs.cs`, `InkRuntimeUI.cs`, `Camera.cs`)
-3. Reopen Unity and wait for asset reimport and shader compilation.
-4. Make sure the project is on the Built-in pipeline.
-
+1. Create a 3D Built-In Unity project.
+2. Copy the following folders into ./Assets
+3. Choose the .unity file to open the scene.
 
 ---
 
